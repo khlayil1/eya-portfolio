@@ -216,8 +216,9 @@ const App = () => {
                         : 'bg-white shadow-xl border-b-4 border-blue-600 h-24'
                 }`}
             >
-                <div className={`max-w-7xl mx-auto px-6 transition-all duration-300 ease-in-out ${
-                    isScrolled ? 'py-2' : 'py-4'
+
+            <div className={`max-w-7xl mx-auto px-6 transition-all duration-300 ease-in-out ${
+                    isScrolled ? 'py-2' : 'py-0.5'
                 }`}>
                     <div className={`flex ${isScrolled ? 'items-center' : 'flex-col lg:flex-row'} gap-4 lg:gap-6 h-full`}>
                         <div className={`${
@@ -230,12 +231,15 @@ const App = () => {
 
                         {!isScrolled && (
                             <div className="text-center lg:text-left flex-1">
-                                <h1 className="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-gray-800 via-gray-700 to-gray-600 bg-clip-text text-transparent mb-1">
+                                <h1 className="text-3xl lg:text-4xl font-bold mb-1
+    lg:bg-gradient-to-r lg:from-gray-800 lg:via-gray-700 lg:to-gray-600 lg:bg-clip-text lg:text-transparent
+    text-gray-900">
                                     {personalInfo.name}
                                 </h1>
-                                <p className="text-lg lg:text-xl text-gradient-to-r from-blue-600 to-purple-600 font-semibold mb-0">
+                                <p className="text-lg lg:text-xl font-semibold mb-0 text-blue-700 lg:text-gradient-to-r">
                                     {personalInfo.title}
                                 </p>
+
                             </div>
                         )}
                     </div>
