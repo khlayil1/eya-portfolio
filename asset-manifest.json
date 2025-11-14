@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/eya-portfolio/static/css/main.e6c13ad2.css",
+    "main.js": "/eya-portfolio/static/js/main.1d31be45.js",
+    "static/js/453.ecae430d.chunk.js": "/eya-portfolio/static/js/453.ecae430d.chunk.js",
+    "index.html": "/eya-portfolio/index.html",
+    "main.e6c13ad2.css.map": "/eya-portfolio/static/css/main.e6c13ad2.css.map",
+    "main.1d31be45.js.map": "/eya-portfolio/static/js/main.1d31be45.js.map",
+    "453.ecae430d.chunk.js.map": "/eya-portfolio/static/js/453.ecae430d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.1d31be45.js"
+  ]
+}
